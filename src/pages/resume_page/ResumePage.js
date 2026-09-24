@@ -14,7 +14,7 @@ function Resume() {
 
   useEffect(() => {
     setWidth(window.innerWidth);
-  }, []);
+  });
 
   return (
     <div>
