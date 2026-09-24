@@ -2,169 +2,174 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import ucsc from "../../images/ucsc.png";
-import ufm from "../../images/ufm.png";
-import cbta from "../../images/CBT&A.pdf";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
 
 export default function Certification() {
+  const certifications = [
+    {
+      id: 1,
+      title: "Data Analysis with Python",
+      provider: "Coursera",
+      category: "Data Science",
+      description:
+        "Certification focused on data analysis using Python, including data processing, analysis, visualization, and practical data science concepts.",
+      color: "#39c4ff",
+      shortName: "PY",
+      certificateUrl: "",
+    },
+
+    {
+      id: 2,
+      title: "How to Write Research Paper",
+      provider: "Coursera",
+      category: "Academic Research",
+      description:
+        "Training focused on research paper writing, academic structure, scientific communication, and preparation of research manuscripts.",
+      color: "#54faae",
+      shortName: "RP",
+      certificateUrl: "",
+    },
+
+    {
+      id: 3,
+      title: "Python for Everybody",
+      provider: "Coursera",
+      category: "Programming",
+      description:
+        "Python programming certification covering programming fundamentals, data handling, problem solving, and practical Python development.",
+      color: "#f1f965",
+      shortName: "PY",
+      certificateUrl: "",
+    },
+
+    {
+      id: 4,
+      title: "Web Development and Designing",
+      provider: "UI/UX",
+      category: "Web Development",
+      description:
+        "Certification covering web development fundamentals, interface design, user experience, and modern web design principles.",
+      color: "#ff8c2f",
+      shortName: "UI",
+      certificateUrl: "",
+    },
+  ];
+
   return (
     <div>
-      <Container fluid className="certificate-section" id="about">
+      <Container
+        fluid
+        className="certificate-section"
+        id="certifications"
+      >
         <Container>
+
+          {/* Heading */}
           <Row>
             <Col
               md={12}
               className="certificate-description d-flex justify-content-start"
             >
               <Zoom left cascade>
-                <h1 className="aboutme-heading">Certification</h1>
+                <div>
+                  <h1 className="aboutme-heading">
+                    Certifications
+                  </h1>
+
+                  <p className="certification-intro">
+                    Professional certifications and training supporting my
+                    academic research, programming, data analysis, and
+                    technical development.
+                  </p>
+                </div>
               </Zoom>
             </Col>
-            <Col ms={12} className="mt-3">
-              <Row className="g-5">
-                <Col md={4}>
-                  <Fade bottom duration={2000} distance="20px">
-                    <div className="cert-card">
-                      <div className="content">
-                        <a
-                          href="https://www.hackerrank.com/certificates/3573ea1a35bb"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <div className="content-overlay"></div>
-                          <div
-                            className="cert-header"
-                            style={{ backgroundColor: "white" }}
-                          >
-                            {<img className="logo_img" src={ucsc} alt={ucsc} />}
-                          </div>
-                          <div className="content-details fadeIn-top">
-                            <h3
-                              className="content-title"
-                              style={{ color: "black" }}
-                            >
-                              Certificate
-                            </h3>
-                          </div>
-                        </a>
-                      </div>
-                      <div className="cert-body">
-                        <h2
-                          className="cert-body-title"
-                          style={{ fontWeight: 700, color: "#fbd9ad" }}
-                        >
-                          Problem Solving Basic : Programming Fundamentals
-                        </h2>
-                        <h3
-                          className="cert-body-subtitle"
-                          style={{ color: "#eb90ff", marginBottom: "0px" }}
-                        >
-                          - HackerRank
-                        </h3>
-                      </div>
-                    </div>
-                  </Fade>
-                </Col>
-                <Col md={4}>
-                  <Fade bottom duration={2000} distance="20px">
-                    <div className="cert-card">
-                      <div className="content">
-                        <a
-                          href={cbta}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <div className="content-overlay"></div>
-                          <div
-                            className="cert-header"
-                            style={{ backgroundColor: "white" }}
-                          >
-                            {<img className="logo_img" src={ufm} alt={ufm} />}
-                          </div>
-                          <div className="content-details fadeIn-top">
-                            <h3
-                              className="content-title"
-                              style={{ color: "black" }}
-                            >
-                              Certificate
-                            </h3>
-                          </div>
-                        </a>
-                      </div>
-                      <div className="cert-body">
-                        <h2
-                          className="cert-body-title"
-                          style={{ fontWeight: 700, color: "#fbd9ad" }}
-                        >
-                          Basic Computer Application for Everyone: IT Support
-                          Technician level-1
-                        </h2>
-                        <h3
-                          className="cert-body-subtitle"
-                          style={{ color: "#eb90ff", marginBottom: "0px" }}
-                        >
-                          - Bangladesh Technical Education Board
-                        </h3>
-                      </div>
-                    </div>
-                  </Fade>
-                </Col>
-                <Col md={4}>
-                  <Fade bottom duration={2000} distance="20px">
-                    <div className="cert-card">
-                      <div className="content">
-                        <a
-                          href="https://www.hackerrank.com/certificates/af66a6615aad"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <div className="content-overlay"></div>
-                          <div
-                            className="cert-header"
-                            style={{ backgroundColor: "white" }}
-                          >
-                            {<img className="logo_img" src={ucsc} alt={ucsc} />}
-                          </div>
-                          <div className="content-details fadeIn-top">
-                            <h3
-                              className="content-title"
-                              style={{ color: "black" }}
-                            >
-                              Certificate
-                            </h3>
-                          </div>
-                        </a>
-                      </div>
-                      <div className="cert-body">
-                        <h2
-                          className="cert-body-title"
-                          style={{ fontWeight: 700, color: "#fbd9ad" }}
-                        >
-                          Python Basic for : Programming Fundamentals
-                        </h2>
-                        <h3
-                          className="cert-body-subtitle"
-                          style={{ color: "#eb90ff", marginBottom: "0px" }}
-                        >
-                          - HackerRank
-                        </h3>
-                      </div>
-                    </div>
-                  </Fade>
-                </Col>
-              </Row>
-            </Col>
           </Row>
-          <div className="blog--viewAll">
-            <Link to="/certificatepage">
-              <button className="btn btn-primary">
-                View All
-                <HiArrowRight className="viewArr" />
-              </button>
-            </Link>
-          </div>
+
+          {/* Certification Cards */}
+          <Row className="g-4 mt-2">
+            {certifications.map((certificate) => (
+              <Col lg={6} md={6} sm={12} key={certificate.id}>
+                <Fade bottom duration={1200} distance="25px">
+
+                  <div
+                    className="modern-cert-card"
+                    style={{
+                      "--cert-color": certificate.color,
+                    }}
+                  >
+
+                    {/* Card Header */}
+                    <div className="cert-modern-header">
+
+                      <div
+                        className="cert-letter"
+                        style={{
+                          color: certificate.color,
+                          borderColor: certificate.color,
+                        }}
+                      >
+                        {certificate.shortName}
+                      </div>
+
+                      <div className="cert-category">
+                        {certificate.category}
+                      </div>
+
+                    </div>
+
+                    {/* Content */}
+                    <div className="cert-modern-body">
+
+                      <h2>
+                        {certificate.title}
+                      </h2>
+
+                      <h4>
+                        {certificate.provider}
+                      </h4>
+
+                      <p>
+                        {certificate.description}
+                      </p>
+
+                    </div>
+
+                    {/* Footer */}
+                    <div className="cert-modern-footer">
+
+                      <span>
+                        Professional Certification
+                      </span>
+
+                      {certificate.certificateUrl ? (
+                        <a
+                          href={certificate.certificateUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="certificate-view-btn"
+                        >
+                          View Certificate
+                          <HiArrowRight />
+                        </a>
+                      ) : (
+                        <span className="certificate-status">
+                          Certificate
+                        </span>
+                      )}
+
+                    </div>
+
+                  </div>
+
+                </Fade>
+              </Col>
+            ))}
+          </Row>
+
+     
+
         </Container>
       </Container>
     </div>

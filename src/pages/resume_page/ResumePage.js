@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 import Particle from "../../Particle";
-import pdf from "../../assets/MD_MAFUJUL_HASAN.pdf";
+import pdf from "../../assets/Shehroz_Ali.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import Zoom from "react-reveal/Zoom";
@@ -41,17 +41,8 @@ function Resume() {
                   &nbsp;Download Resume
                 </Button>
               </div>
-              <div className="resume d-flex justify-content-center">
-                <Document file={resumeLink}>
-                  <Page pageNumber={1} scale={width > 786 ? 1.6 : 0.4} />
-                </Document>
-              </div>
-              <div className="d-flex justify-content-center">
-                <Button variant="primary" href={pdf} target="_blank">
-                  <AiOutlineDownload />
-                  &nbsp;Download Resume
-                </Button>
-              </div>
+             
+            
             </div>
           </Container>
         </Container>

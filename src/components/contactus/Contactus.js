@@ -49,7 +49,7 @@ export default function Contactus() {
               className="certificate-description d-flex justify-content-start"
             >
               <Zoom left cascade>
-                <h1 className="aboutme-heading">Contact me</h1>
+                <h1 className="aboutme-heading" style={{paddingTop:"100px"}}>Contact me</h1>
               </Zoom>
             </Col>
             <Col md={12} id="contact" className="mt-3">
@@ -116,55 +116,65 @@ export default function Contactus() {
                   </div>
                 </Col>
                 <Col md={7}>
-                  <div className="contacts-details">
-                    <a
-                      href={`mailto:mdtonmoy13.mt@gmail.com`}
-                      className="personal-details"
-                    >
-                      <div className="detailsIcon">
-                        <FiAtSign />
-                      </div>
-                      <p style={{ color: "#fbd9ad" }}>
-                        mdtonmoy13.mt@gmail.com
-                      </p>
-                    </a>
-                    <a
-                      href={`tel:+880 1603-550521`}
-                      className="personal-details"
-                    >
-                      <div className="detailsIcon">
-                        <FiPhone />
-                      </div>
-                      <p style={{ color: "#fbd9ad" }}>+880 1603-550521</p>
-                    </a>
-                    <a
-                      href="https://maps.app.goo.gl/iUHJvPAhJXwJayo68"
-                      className="personal-details"
-                    >
-                      <div className="personal-details">
-                        <div className="detailsIcon">
-                          <HiOutlineLocationMarker />
-                        </div>
-                        <p style={{ color: "#fbd9ad" }}>
-                          BOF R/A, Gazipur Cantonment, BOF-1703, Dhaka,
-                          Bangladesh.
-                        </p>
-                      </div>
-                    </a>
-                  </div>
-                  <div className="contact-map">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.833618785371!2d90.41265112695315!3d24.036931700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755db9832166e63%3A0x96050e560e6dc4fa!2sBOF%20Central%20Mosque!5e0!3m2!1sen!2sbd!4v1695023265917!5m2!1sen!2sbd"
-                      frameBorder="0"
-                      allowFullScreen=""
-                      aria-hidden="false"
-                      title="Contact Me"
-                      tabIndex="0"
-                      loading="lazy"
-                      className=""
-                    ></iframe>
-                  </div>
-                </Col>
+  <div className="contacts-details">
+
+    {/* Email */}
+    <a
+      href="mailto:shehrozali98@gmail.com"
+      className="personal-details"
+    >
+      <div className="detailsIcon">
+        <FiAtSign />
+      </div>
+      <p style={{ color: "#fbd9ad" }}>
+        shehrozali98@gmail.com
+      </p>
+    </a>
+
+    {/* Phone */}
+    <a
+      href="tel:+923236020215"
+      className="personal-details"
+    >
+      <div className="detailsIcon">
+        <FiPhone />
+      </div>
+      <p style={{ color: "#fbd9ad" }}>
+        0323-6020215
+      </p>
+    </a>
+
+    {/* Location */}
+    <a
+      href="https://www.google.com/maps/search/?api=1&query=Islam+Nagar+Faisalabad+Pakistan"
+      target="_blank"
+      rel="noreferrer"
+      className="personal-details"
+    >
+      <div className="detailsIcon">
+        <HiOutlineLocationMarker />
+      </div>
+      <p style={{ color: "#fbd9ad" }}>
+        Street No 1, Islam Nagar, Faisalabad, Pakistan
+      </p>
+    </a>
+
+  </div>
+
+  <div className="contact-map">
+    <iframe
+      src="https://www.google.com/maps?q=Islam+Nagar,+Faisalabad,+Pakistan&output=embed"
+      frameBorder="0"
+      allowFullScreen=""
+      aria-hidden="false"
+      title="Contact Me"
+      tabIndex="0"
+      loading="lazy"
+      className=""
+    ></iframe>
+  </div>
+</Col>
+
               </Row>
             </Col>
           </Row>

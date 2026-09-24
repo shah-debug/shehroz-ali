@@ -44,7 +44,7 @@ export default function MyNav() {
                 color: "#fbd9ad",
               }}
             >
-              MD MAFUJUL HASAN
+              M. Shehroz Ali
             </h5>
           </div>
         </Navbar.Brand>

@@ -29,12 +29,10 @@ export default function AboutmeContainer() {
                                 <Nav.Link as={Link} to="educationjourney" eventKey="link-3" style={{ fontSize: "17px",fontWeight:700 }}>Journey</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link as={Link} to="ranking" eventKey="link-4" style={{ fontSize: "17px",fontWeight:700 }}>
-                                Ranking
-                                </Nav.Link>
+                               
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link as={Link} to="socialmedia" eventKey="link-5" style={{ fontSize: "17px",fontWeight:700 }}>
+                                <Nav.Link as={Link} to="socialmedia" eventKey="link-4" style={{ fontSize: "17px",fontWeight:700 }}>
                                 Social Media
                                 </Nav.Link>
                             </Nav.Item>

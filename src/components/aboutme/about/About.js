@@ -1,18 +1,14 @@
 import React from "react";
-import { Container } from "react-bootstrap";
-import { Row } from "react-bootstrap";
-import { Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
+
 const About = () => {
   return (
     <div>
       <Container>
-        {/* <Slide left > */}
         <Row className="mt-5">
           <Col md={5}>
-            {/* <GreetingLottie animationPath="/lottie/coding.json" /> */}
-
             <Slide left>
               <lottie-player
                 src="https://assets5.lottiefiles.com/packages/lf20_iv4dsx3q.json"
@@ -28,41 +24,61 @@ const About = () => {
           <Col md={7}>
             <Fade duration={3000}>
               <p className="home-about-body">
-                My name is <b className="purple">MD Mafujul Hasan </b> 
-                  and I am a <b className="purple">Computer Science and Engineering </b> 
-                    student at <b className="purple">Sonargaon University </b>
-                      in Dhaka, Bangladesh.
+                My name is{" "}
+                <b className="purple">Muhammad Shehroz Ali</b>, and I am a{" "}
+                <b className="purple">
+                  Computer Science researcher and MS/MPhil candidate
+                </b>{" "}
+                at{" "}
+                <b className="purple">
+                  Government College University Faisalabad, Pakistan
+                </b>
+                .
                 <br />
                 <br />
-                        I am proficient in various programming languages such as &nbsp;
-                  <b className="purple">
-                    {" "}
-                    C, C++, Java, Python, HTML, CSS, PHP, and JavaScript.{" "}
-                  </b>
-                <br />
-                <br />
-                I also have experience working with frameworks and libraries such as &nbsp;
 
-                  <b className="purple">
-                    {" "}
-                    NodeJS, ReactJS, OpenCV, Pandas, and NumPy.{" "}
-                  </b>
+                My research focuses on{" "}
+                <b className="purple">
+                  Multimodal AI, Medical Image Analysis, and
+                  Privacy-Preserving Machine Learning
+                </b>
+                . My current research explores{" "}
+                <b className="purple">
+                  glaucoma diagnosis using multimodal large language models,
+                  few-shot learning, and retrieval-augmented generation
+                </b>
+                .
                 <br />
                 <br />
-                Whenever possible, I also apply my passion for developing
-                products with &nbsp;
-                  <b className="purple">
-                    {" "}
-                    Modern Javascript Library and Frameworks.
-                  </b>
+
+                I also have research experience in{" "}
+                <b className="purple">
+                  Federated Learning, Differential Privacy, Vision
+                  Transformers, and Remote Sensing Image Classification
+                </b>
+                , with a particular interest in developing efficient and
+                privacy-aware AI systems.
                 <br />
-                <br />In my free time, I enjoy learning new technologies and &nbsp;
-                  <b className="purple">building new web technologies and products. </b>
+                <br />
+
+                Alongside my research, I work with{" "}
+                <b className="purple">
+                  Python, PyTorch, TensorFlow, Hugging Face, Dart/Flutter,
+                  LaTeX, and Google Colab
+                </b>
+                . I have also developed and released a{" "}
+                <b className="purple">
+                  lightweight glaucoma classification model on Hugging Face
+                </b>{" "}
+                and am actively interested in{" "}
+                <b className="purple">
+                  research collaborations and fully funded PhD opportunities
+                </b>{" "}
+                in Computer Science and Artificial Intelligence.
               </p>
             </Fade>
           </Col>
         </Row>
-        {/* </Slide> */}
       </Container>
     </div>
   );
