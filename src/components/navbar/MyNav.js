@@ -41,7 +41,7 @@ export default function MyNav() {
               style={{
                 marginLeft: "21px",
                 paddingTop: "6px",
-                color: "#fbd9ad",
+                color: "#38bdf8",
               }}
             >
               M. Shehroz Ali
@@ -61,7 +61,14 @@ export default function MyNav() {
         <Navbar.Collapse id="responsive-navbar-nav" className="navbarmain">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link
+                as={Link}
+                to="/"
+                onClick={() => {
+                  updateExpanded(false);
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
+              >
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
@@ -69,8 +76,15 @@ export default function MyNav() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/projectspage"
-                onClick={() => updateExpanded(false)}
+                to="/#projects"
+                onClick={() => {
+                  updateExpanded(false);
+                  setTimeout(() => {
+                    document
+                      .getElementById("projects")
+                      ?.scrollIntoView({ behavior: "smooth" });
+                  }, 80);
+                }}
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
@@ -92,8 +106,15 @@ export default function MyNav() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/certificatepage"
-                onClick={() => updateExpanded(false)}
+                to="/#certifications"
+                onClick={() => {
+                  updateExpanded(false);
+                  setTimeout(() => {
+                    document
+                      .getElementById("certifications")
+                      ?.scrollIntoView({ behavior: "smooth" });
+                  }, 80);
+                }}
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Certifications
               </Nav.Link>

@@ -126,7 +126,7 @@ export default function Contactus() {
       <div className="detailsIcon">
         <FiAtSign />
       </div>
-      <p style={{ color: "#fbd9ad" }}>
+      <p style={{ color: "#38bdf8" }}>
         shehrozali98@gmail.com
       </p>
     </a>
@@ -139,7 +139,7 @@ export default function Contactus() {
       <div className="detailsIcon">
         <FiPhone />
       </div>
-      <p style={{ color: "#fbd9ad" }}>
+      <p style={{ color: "#38bdf8" }}>
         0323-6020215
       </p>
     </a>
@@ -154,7 +154,7 @@ export default function Contactus() {
       <div className="detailsIcon">
         <HiOutlineLocationMarker />
       </div>
-      <p style={{ color: "#fbd9ad" }}>
+      <p style={{ color: "#38bdf8" }}>
         Street No 1, Islam Nagar, Faisalabad, Pakistan
       </p>
     </a>

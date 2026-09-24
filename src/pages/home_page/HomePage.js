@@ -1,17 +1,30 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { useLocation } from "react-router-dom";
 import Particle from "../../Particle";
 import Typing from "./Typing";
 import Tilt from "react-parallax-tilt";
 import AboutmeContainer from "../../components/aboutme/aboutmeContainer";
+import Journey from "../../components/aboutme/journey/Journey";
 import Fade from "react-reveal/Fade";
-import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn, FaFacebookF, FaGoogle } from "react-icons/fa";
 import Certification from "../../components/certificate/Certification";
 import Projects from "../../components/projects/Projects";
 import Contactus from "../../components/contactus/Contactus";
 
 export default function Home() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (!location.hash) return;
+
+    const id = location.hash.replace("#", "");
+    const timer = setTimeout(() => {
+      document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+    }, 120);
+
+    return () => clearTimeout(timer);
+  }, [location.hash]);
+
   return (
     <section className="home-section">
       <Container fluid id="home">
@@ -37,7 +50,6 @@ export default function Home() {
               <div className="typing-homeclass">
                 <Typing />
               </div>
-             
             </Col>
             <Col md={4} style={{ paddingBottom: 20 }}>
               <div className="img-home-main">
@@ -56,6 +68,7 @@ export default function Home() {
         </Container>
       </Container>
       <AboutmeContainer />
+      <Journey />
       <Certification />
       <Projects />
       <Contactus />

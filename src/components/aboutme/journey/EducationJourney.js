@@ -4,34 +4,13 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import SchoolIcon from "@mui/icons-material/School";
-import { Link } from "react-router-dom";
 import StarIcon from "@mui/icons-material/Star";
 import Flip from "react-reveal/Flip";
 
 function EducationJourney() {
   return (
     <div className="mt-5">
-      {/* Navigation */}
       <div>
-        <Link className="btn btn-primary m-1" to="/educationjourney">
-          Educational Journey
-        </Link>
-
-        <Link className="btn btn-primary m-1" to="/experiencejourney">
-          Experience Journey
-        </Link>
-
-        <Link className="btn btn-primary m-1" to="/technicaljourney">
-          Technical Journey
-        </Link>
-
-        <Link className="btn btn-primary m-1" to="/projectjourney">
-          Project Journey
-        </Link>
-      </div>
-
-      {/* Heading */}
-      <div className="mt-5">
         <Flip top cascade>
           <h1>Educational Journey</h1>
         </Flip>
@@ -44,7 +23,7 @@ function EducationJourney() {
           className="vertical-timeline-element--education"
           contentStyle={{
             background: "rgb(78 22 112)",
-            color: "#fbd9ad",
+            color: "#38bdf8",
           }}
           contentArrowStyle={{
             borderRight: "7px solid rgb(78 22 112)",
@@ -52,7 +31,7 @@ function EducationJourney() {
           date="01/2024 – 04/2026"
           iconStyle={{
             background: "rgb(78 22 112)",
-            color: "#fbd9ad",
+            color: "#38bdf8",
           }}
           icon={<SchoolIcon />}
         >
@@ -85,7 +64,7 @@ function EducationJourney() {
           className="vertical-timeline-element--education"
           contentStyle={{
             background: "rgb(78 22 112)",
-            color: "#fbd9ad",
+            color: "#38bdf8",
           }}
           contentArrowStyle={{
             borderRight: "7px solid rgb(78 22 112)",
@@ -93,7 +72,7 @@ function EducationJourney() {
           date="11/2019 – 11/2023"
           iconStyle={{
             background: "rgb(78 22 112)",
-            color: "#fbd9ad",
+            color: "#38bdf8",
           }}
           icon={<SchoolIcon />}
         >
@@ -121,7 +100,7 @@ function EducationJourney() {
           className="vertical-timeline-element--education"
           contentStyle={{
             background: "rgb(78 22 112)",
-            color: "#fbd9ad",
+            color: "#38bdf8",
           }}
           contentArrowStyle={{
             borderRight: "7px solid rgb(78 22 112)",
@@ -129,7 +108,7 @@ function EducationJourney() {
           date="2024 – 2026"
           iconStyle={{
             background: "rgb(78 22 112)",
-            color: "#fbd9ad",
+            color: "#38bdf8",
           }}
           icon={<SchoolIcon />}
         >
@@ -151,7 +130,7 @@ function EducationJourney() {
         {/* End */}
         <VerticalTimelineElement
           iconStyle={{
-            background: "#fbd9ad",
+            background: "#38bdf8",
             color: "rgb(78 22 112)",
           }}
           icon={<StarIcon />}

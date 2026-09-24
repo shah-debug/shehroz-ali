@@ -23,7 +23,7 @@ export default function CertificatePage() {
           <div
             className="d-flex justify-content-center"
             width="100%"
-            style={{ backgroundColor: "#fbd9ad" }}
+            style={{ backgroundColor: "#38bdf8" }}
           >
             <Zoom left cascade>
               <h1 style={{ color: "rgb(134 61 176" }}>Certificates</h1>
@@ -71,7 +71,7 @@ export default function CertificatePage() {
                               <div className="cert-body">
                                 <h2
                                   className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                  style={{ fontWeight: 700, color: "#38bdf8" }}
                                 >
                                   Problem Solving Basic : Programming
                                   Fundamentals
@@ -124,7 +124,7 @@ export default function CertificatePage() {
                               <div className="cert-body">
                                 <h2
                                   className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                  style={{ fontWeight: 700, color: "#38bdf8" }}
                                 >
                                   Basic Computer Application : IT Support
                                   Technician level-1
@@ -177,7 +177,7 @@ export default function CertificatePage() {
                               <div className="cert-body">
                                 <h2
                                   className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                  style={{ fontWeight: 700, color: "#38bdf8" }}
                                 >
                                   Python Basic : Programming Fundamentals
                                 </h2>
@@ -229,7 +229,7 @@ export default function CertificatePage() {
                               <div className="cert-body">
                                 <h2
                                   className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                  style={{ fontWeight: 700, color: "#38bdf8" }}
                                 >
                                   CCNA(Cisco Certified Network Associate) :
                                   Basic Networking for Everyone.
@@ -283,7 +283,7 @@ export default function CertificatePage() {
                               <div className="cert-body">
                                 <h2
                                   className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                  style={{ fontWeight: 700, color: "#38bdf8" }}
                                 >
                                   C Programming Basic : Programming Fundamentals
                                 </h2>
@@ -336,7 +336,7 @@ export default function CertificatePage() {
                               <div className="cert-body">
                                 <h2
                                   className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                  style={{ fontWeight: 700, color: "#38bdf8" }}
                                 >
                                   Graphics Design Basic : Creative Fundamentals
                                 </h2>
@@ -389,7 +389,7 @@ export default function CertificatePage() {
                               <div className="cert-body">
                                 <h2
                                   className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                  style={{ fontWeight: 700, color: "#38bdf8" }}
                                 >
                                   Certified for Microsoft PowerPoint
                                 </h2>
@@ -441,7 +441,7 @@ export default function CertificatePage() {
                               <div className="cert-body">
                                 <h2
                                   className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                  style={{ fontWeight: 700, color: "#38bdf8" }}
                                 >
                                   Certified for Microsoft Windows
                                 </h2>
@@ -493,7 +493,7 @@ export default function CertificatePage() {
                               <div className="cert-body">
                                 <h2
                                   className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                  style={{ fontWeight: 700, color: "#38bdf8" }}
                                 >
                                   Certified for Microsoft Excel
                                 </h2>
@@ -545,7 +545,7 @@ export default function CertificatePage() {
                               <div className="cert-body">
                                 <h2
                                   className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                  style={{ fontWeight: 700, color: "#38bdf8" }}
                                 >
                                   Career Doctor Report
                                 </h2>
@@ -597,7 +597,7 @@ export default function CertificatePage() {
                               <div className="cert-body">
                                 <h2
                                   className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                  style={{ fontWeight: 700, color: "#38bdf8" }}
                                 >
                                   React (Basic) Certificate : Programming
                                   Fundamentals
@@ -650,7 +650,7 @@ export default function CertificatePage() {
                               <div className="cert-body">
                                 <h2
                                   className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                  style={{ fontWeight: 700, color: "#38bdf8" }}
                                 >
                                   IQ - Test
                                 </h2>
@@ -702,7 +702,7 @@ export default function CertificatePage() {
                               <div className="cert-body">
                                 <h2
                                   className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                  style={{ fontWeight: 700, color: "#38bdf8" }}
                                 >
                                   Computer Knowledge Test
                                 </h2>
@@ -754,7 +754,7 @@ export default function CertificatePage() {
                               <div className="cert-body">
                                 <h2
                                   className="cert-body-title"
-                                  style={{ fontWeight: 700, color: "#fbd9ad" }}
+                                  style={{ fontWeight: 700, color: "#38bdf8" }}
                                 >
                                   Certified for Client Relationship Executive
                                 </h2>

@@ -3,7 +3,6 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import { Link } from "react-router-dom";
 import StarIcon from "@mui/icons-material/Star";
 import JavascriptIcon from '@mui/icons-material/Javascript';
 import CssIcon from '@mui/icons-material/Css';
@@ -14,20 +13,6 @@ import Flip from "react-reveal/Flip";
 function ProjectJourney() {
   return (
     <div className="mt-5">
-      <div>
-        <Link className="btn btn-primary m-1" to="/educationjourney">
-          Educational Journey
-        </Link>
-        <Link className="btn btn-primary m-1" to="/experiencejourney">
-          Experience Journey
-        </Link>
-        <Link className="btn btn-primary m-1" to="/technicaljourney">
-          Technical Journey
-        </Link>
-        <Link className="btn btn-primary m-1" to="/projectjourney">
-          Project Journey
-        </Link>
-      </div>
       <div className="mt-5">
         <Flip top cascade>
           <h1>Project Journey</h1>
@@ -36,10 +21,10 @@ function ProjectJourney() {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          iconStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -48,10 +33,10 @@ function ProjectJourney() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          iconStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -60,10 +45,10 @@ function ProjectJourney() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          iconStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -72,10 +57,10 @@ function ProjectJourney() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          iconStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -84,10 +69,10 @@ function ProjectJourney() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          iconStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           icon={<CssIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -96,10 +81,10 @@ function ProjectJourney() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          iconStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           icon={<HtmlIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -108,10 +93,10 @@ function ProjectJourney() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          iconStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           icon={<CodeIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -120,10 +105,10 @@ function ProjectJourney() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          iconStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           icon={<CssIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -132,10 +117,10 @@ function ProjectJourney() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          iconStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           icon={<CssIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -144,10 +129,10 @@ function ProjectJourney() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          iconStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           icon={<CssIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -156,10 +141,10 @@ function ProjectJourney() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          iconStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -168,10 +153,10 @@ function ProjectJourney() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          iconStyle={{ background: "rgb(78 22 112)", color: "#38bdf8" }}
           icon={<CodeIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -179,7 +164,7 @@ function ProjectJourney() {
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          iconStyle={{ background: "#fbd9ad", color: "rgb(78 22 112)" }}
+          iconStyle={{ background: "#38bdf8", color: "rgb(78 22 112)" }}
           icon={<StarIcon />}
         />
       </VerticalTimeline>

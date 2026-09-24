@@ -25,7 +25,7 @@ export default function ProjectPage() {
           <div
             className="d-flex justify-content-center"
             width="100%"
-            style={{ backgroundColor: "#fbd9ad" }}
+            style={{ backgroundColor: "#38bdf8" }}
           >
             <Zoom left cascade>
               <h1 style={{ color: "rgb(134 61 176" }}>PROJECTS</h1>
@@ -49,7 +49,7 @@ export default function ProjectPage() {
                               }}
                             >
                               <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                <h5 id={"first"} style={{ color: "#38bdf8" }}>
                                   New Year CountDown
                                 </h5>
                                 <img src={nyc} alt={nyc} />
@@ -75,7 +75,7 @@ export default function ProjectPage() {
                                 <p
                                   className="project--desc"
                                   style={{
-                                    background: "#fbd9ad",
+                                    background: "#38bdf8",
                                     color: "#b061df",
                                     fontWeight: 600,
                                   }}
@@ -92,7 +92,7 @@ export default function ProjectPage() {
                               <div
                                 className="project--lang"
                                 style={{
-                                  background: "#fbd9ad",
+                                  background: "#38bdf8",
                                   color: "#b061df",
                                   fontWeight: 600,
                                 }}
@@ -113,7 +113,7 @@ export default function ProjectPage() {
                               }}
                             >
                               <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                <h5 id={"first"} style={{ color: "#38bdf8" }}>
                                   Heart Disease Prediction
                                 </h5>
                                 <img src={hd} alt={hd} />
@@ -139,7 +139,7 @@ export default function ProjectPage() {
                                 <p
                                   className="project--desc"
                                   style={{
-                                    background: "#fbd9ad",
+                                    background: "#38bdf8",
                                     color: "#b061df",
                                     fontWeight: 600,
                                   }}
@@ -155,7 +155,7 @@ export default function ProjectPage() {
                               <div
                                 className="project--lang"
                                 style={{
-                                  background: "#fbd9ad",
+                                  background: "#38bdf8",
                                   color: "#b061df",
                                   fontWeight: 600,
                                 }}
@@ -176,7 +176,7 @@ export default function ProjectPage() {
                               }}
                             >
                               <div className="projectPageContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                <h5 id={"first"} style={{ color: "#38bdf8" }}>
                                   Online Payroll Management System
                                 </h5>
                                 <img src={ci} alt={ci} />
@@ -202,7 +202,7 @@ export default function ProjectPage() {
                                 <p
                                   className="project--desc"
                                   style={{
-                                    background: "#fbd9ad",
+                                    background: "#38bdf8",
                                     color: "#b061df",
                                     fontWeight: 600,
                                   }}
@@ -218,7 +218,7 @@ export default function ProjectPage() {
                               <div
                                 className="project--lang"
                                 style={{
-                                  background: "#fbd9ad",
+                                  background: "#38bdf8",
                                   color: "#b061df",
                                   fontWeight: 600,
                                 }}
@@ -239,7 +239,7 @@ export default function ProjectPage() {
                               }}
                             >
                               <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                <h5 id={"first"} style={{ color: "#38bdf8" }}>
                                   Shoppy Ecommerce
                                 </h5>
                                 <img src={eco} alt={eco} />
@@ -265,7 +265,7 @@ export default function ProjectPage() {
                                 <p
                                   className="project--desc"
                                   style={{
-                                    background: "#fbd9ad",
+                                    background: "#38bdf8",
                                     color: "#b061df",
                                     fontWeight: 600,
                                   }}
@@ -281,7 +281,7 @@ export default function ProjectPage() {
                               <div
                                 className="project--lang"
                                 style={{
-                                  background: "#fbd9ad",
+                                  background: "#38bdf8",
                                   color: "#b061df",
                                   fontWeight: 600,
                                 }}
@@ -302,7 +302,7 @@ export default function ProjectPage() {
                               }}
                             >
                               <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                <h5 id={"first"} style={{ color: "#38bdf8" }}>
                                   Personal Portfolio
                                 </h5>
                                 <img src={pp} alt={pp} />
@@ -328,7 +328,7 @@ export default function ProjectPage() {
                                 <p
                                   className="project--desc"
                                   style={{
-                                    background: "#fbd9ad",
+                                    background: "#38bdf8",
                                     color: "#b061df",
                                     fontWeight: 600,
                                   }}
@@ -342,7 +342,7 @@ export default function ProjectPage() {
                               <div
                                 className="project--lang"
                                 style={{
-                                  background: "#fbd9ad",
+                                  background: "#38bdf8",
                                   color: "#b061df",
                                   fontWeight: 600,
                                 }}
@@ -363,7 +363,7 @@ export default function ProjectPage() {
                               }}
                             >
                               <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                <h5 id={"first"} style={{ color: "#38bdf8" }}>
                                   Amazing Meal
                                 </h5>
                                 <img src={meal} alt={meal} />
@@ -389,7 +389,7 @@ export default function ProjectPage() {
                                 <p
                                   className="project--desc"
                                   style={{
-                                    background: "#fbd9ad",
+                                    background: "#38bdf8",
                                     color: "#b061df",
                                     fontWeight: 600,
                                   }}
@@ -405,7 +405,7 @@ export default function ProjectPage() {
                               <div
                                 className="project--lang"
                                 style={{
-                                  background: "#fbd9ad",
+                                  background: "#38bdf8",
                                   color: "#b061df",
                                   fontWeight: 600,
                                 }}
@@ -426,7 +426,7 @@ export default function ProjectPage() {
                               }}
                             >
                               <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                <h5 id={"first"} style={{ color: "#38bdf8" }}>
                                   Academia Learning Website
                                 </h5>
                                 <img src={ac} alt={ac} />
@@ -452,7 +452,7 @@ export default function ProjectPage() {
                                 <p
                                   className="project--desc"
                                   style={{
-                                    background: "#fbd9ad",
+                                    background: "#38bdf8",
                                     color: "#b061df",
                                     fontWeight: 600,
                                   }}
@@ -468,7 +468,7 @@ export default function ProjectPage() {
                               <div
                                 className="project--lang"
                                 style={{
-                                  background: "#fbd9ad",
+                                  background: "#38bdf8",
                                   color: "#b061df",
                                   fontWeight: 600,
                                 }}
@@ -489,7 +489,7 @@ export default function ProjectPage() {
                               }}
                             >
                               <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                <h5 id={"first"} style={{ color: "#38bdf8" }}>
                                   Dual Mode Calendar
                                 </h5>
                                 <img src={calendar} alt={calendar} />
@@ -515,7 +515,7 @@ export default function ProjectPage() {
                                 <p
                                   className="project--desc"
                                   style={{
-                                    background: "#fbd9ad",
+                                    background: "#38bdf8",
                                     color: "#b061df",
                                     fontWeight: 600,
                                   }}
@@ -528,7 +528,7 @@ export default function ProjectPage() {
                               <div
                                 className="project--lang"
                                 style={{
-                                  background: "#fbd9ad",
+                                  background: "#38bdf8",
                                   color: "#b061df",
                                   fontWeight: 600,
                                 }}
@@ -549,7 +549,7 @@ export default function ProjectPage() {
                               }}
                             >
                               <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                <h5 id={"first"} style={{ color: "#38bdf8" }}>
                                   Dual Mode Calculator
                                 </h5>
                                 <img src={calculator} alt={calculator} />
@@ -575,7 +575,7 @@ export default function ProjectPage() {
                                 <p
                                   className="project--desc"
                                   style={{
-                                    background: "#fbd9ad",
+                                    background: "#38bdf8",
                                     color: "#b061df",
                                     fontWeight: 600,
                                   }}
@@ -588,7 +588,7 @@ export default function ProjectPage() {
                               <div
                                 className="project--lang"
                                 style={{
-                                  background: "#fbd9ad",
+                                  background: "#38bdf8",
                                   color: "#b061df",
                                   fontWeight: 600,
                                 }}
@@ -609,7 +609,7 @@ export default function ProjectPage() {
                               }}
                             >
                               <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                <h5 id={"first"} style={{ color: "#38bdf8" }}>
                                   Digital Clock
                                 </h5>
                                 <img src={dc} alt={dc} />
@@ -635,7 +635,7 @@ export default function ProjectPage() {
                                 <p
                                   className="project--desc"
                                   style={{
-                                    background: "#fbd9ad",
+                                    background: "#38bdf8",
                                     color: "#b061df",
                                     fontWeight: 600,
                                   }}
@@ -647,7 +647,7 @@ export default function ProjectPage() {
                               <div
                                 className="project--lang"
                                 style={{
-                                  background: "#fbd9ad",
+                                  background: "#38bdf8",
                                   color: "#b061df",
                                   fontWeight: 600,
                                 }}
@@ -668,7 +668,7 @@ export default function ProjectPage() {
                               }}
                             >
                               <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                <h5 id={"first"} style={{ color: "#38bdf8" }}>
                                   Age Calculator
                                 </h5>
                                 <img src={age} alt={age} />
@@ -694,7 +694,7 @@ export default function ProjectPage() {
                                 <p
                                   className="project--desc"
                                   style={{
-                                    background: "#fbd9ad",
+                                    background: "#38bdf8",
                                     color: "#b061df",
                                     fontWeight: 600,
                                   }}
@@ -707,7 +707,7 @@ export default function ProjectPage() {
                               <div
                                 className="project--lang"
                                 style={{
-                                  background: "#fbd9ad",
+                                  background: "#38bdf8",
                                   color: "#b061df",
                                   fontWeight: 600,
                                 }}
@@ -728,7 +728,7 @@ export default function ProjectPage() {
                               }}
                             >
                               <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
+                                <h5 id={"first"} style={{ color: "#38bdf8" }}>
                                   Student Information Management System
                                 </h5>
                                 <img src={sims} alt={sims} />
@@ -754,7 +754,7 @@ export default function ProjectPage() {
                                 <p
                                   className="project--desc"
                                   style={{
-                                    background: "#fbd9ad",
+                                    background: "#38bdf8",
                                     color: "#b061df",
                                     fontWeight: 600,
                                   }}
@@ -768,7 +768,7 @@ export default function ProjectPage() {
                               <div
                                 className="project--lang"
                                 style={{
-                                  background: "#fbd9ad",
+                                  background: "#38bdf8",
                                   color: "#b061df",
                                   fontWeight: 600,
                                 }}

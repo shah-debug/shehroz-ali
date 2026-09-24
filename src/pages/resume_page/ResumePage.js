@@ -28,7 +28,7 @@ function Resume() {
             <div
               className="d-flex justify-content-center"
               width="100%"
-              style={{ backgroundColor: "#fbd9ad" }}
+              style={{ backgroundColor: "#38bdf8" }}
             >
               <Zoom left cascade>
                 <h1 style={{ color: "rgb(134 61 176)" }}>RESUME</h1>
