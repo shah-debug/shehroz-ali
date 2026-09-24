@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import { Link } from "react-router-dom";
 
 import {
   FaBrain,
@@ -10,10 +9,8 @@ import {
   FaMobileAlt,
   FaCode,
   FaGithub,
-  FaArrowRight,
 } from "react-icons/fa";
 
-import { HiArrowRight } from "react-icons/hi";
 
 export default function Projects() {
   const projects = [
