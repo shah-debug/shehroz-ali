@@ -155,23 +155,24 @@ export default function Contactus() {
         <HiOutlineLocationMarker />
       </div>
       <p style={{ color: "#38bdf8" }}>
-        Street No 1, Islam Nagar, Faisalabad, Pakistan
+        Faisalabad, Pakistan
       </p>
     </a>
 
   </div>
 
   <div className="contact-map">
-    <iframe
-      src="https://www.google.com/maps?q=Islam+Nagar,+Faisalabad,+Pakistan&output=embed"
-      frameBorder="0"
-      allowFullScreen=""
-      aria-hidden="false"
-      title="Contact Me"
-      tabIndex="0"
-      loading="lazy"
-      className=""
-    ></iframe>
+  <iframe
+  src="https://www.google.com/maps?q=Faisalabad,+Pakistan&output=embed"
+  frameBorder="0"
+  allowFullScreen=""
+  aria-hidden="false"
+  title="Contact Me"
+  tabIndex="0"
+  loading="lazy"
+  className=""
+></iframe>
+
   </div>
 </Col>
 

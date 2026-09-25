@@ -24,6 +24,7 @@ function EducationJourney() {
           contentStyle={{
             background: "rgb(78 22 112)",
             color: "#38bdf8",
+            marginLeft:"15px"
           }}
           contentArrowStyle={{
             borderRight: "7px solid rgb(78 22 112)",
@@ -96,36 +97,7 @@ function EducationJourney() {
         </VerticalTimelineElement>
 
         {/* Thesis / Research */}
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          contentStyle={{
-            background: "rgb(78 22 112)",
-            color: "#38bdf8",
-          }}
-          contentArrowStyle={{
-            borderRight: "7px solid rgb(78 22 112)",
-          }}
-          date="2024 – 2026"
-          iconStyle={{
-            background: "rgb(78 22 112)",
-            color: "#38bdf8",
-          }}
-          icon={<SchoolIcon />}
-        >
-          <h4 className="vertical-timeline-element-title">
-            MPhil RESEARCH
-          </h4>
-
-          <h4 className="vertical-timeline-element-subtitle mt-2">
-            Glaucoma Diagnosis Using Multimodal AI
-          </h4>
-
-          <p>
-            Research focused on improving glaucoma diagnosis using multimodal
-            large language models, medical image analysis, few-shot learning,
-            and AI-based diagnostic approaches.
-          </p>
-        </VerticalTimelineElement>
+     
 
         {/* End */}
         <VerticalTimelineElement
