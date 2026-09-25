@@ -18,28 +18,24 @@ export default function SocialMedia() {
       <Container className="mt-5">
         <Row className="g-5">
           <Col md={3}>
-            <a
-              href="#"
-              target="_blank"
+            <button
               rel="noreferrer"
               className="icon-colour  home-social-icons"
             >
               <Zoom cascade>
                 <AiOutlineInstagram />
               </Zoom>
-            </a>
+            </button>
           </Col>
           <Col md={3}>
-            <a
-              href="#"
-              target="_blank"
+            <button
               rel="noreferrer"
               className="icon-colour  home-social-icons"
             >
               <Zoom cascade>
                 <AiFillFacebook />
               </Zoom>
-            </a>
+            </button>
           </Col>
           <Col md={3}>
             <a

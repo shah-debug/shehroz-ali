@@ -38,34 +38,28 @@ function Footer() {
               </a>
             </li>
             <li className="social-icons">
-              <a
-                href="#"
+              <button
                 style={{ color: "white" }}
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
-              </a>
+              </button>
             </li>
             <li className="social-icons">
-              <a
-                href="#"
+              <button
                 style={{ color: "white" }}
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaFacebookF />
-              </a>
+              </button>
             </li>
             <li className="social-icons">
-              <a
-                href="#"
+              <button
                 style={{ color: "white" }}
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaGoogle />
-              </a>
+              </button>
             </li>
           </ul>
         </Col>
